@@ -1,0 +1,7 @@
+div.toggle-disposition .dispositions {
+	visibility:  hidden;
+	position: absolute;
+	left: -40px;
+	top: 0px;
+	padding: 3px;
+}

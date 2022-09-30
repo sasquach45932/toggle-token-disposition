@@ -1,0 +1,33 @@
+{
+  "title": "Toggle Token Disposition",
+  "description": "This module adds a button to the token or tile HUD that allows you to quickly change the token's disposition.",
+  "authors": [
+    {
+      "name": "Mindsoup",
+      "email": "info@mindsoup.net",
+      "url": "https://github.com/MindsoupLabs",
+      "flags": {}
+    }
+  ],
+  "version": "1.0",
+  "socket": false,
+  "scripts": [
+    "scripts/toggle-disposition.js"
+  ],
+  "styles": [
+    "styles/toggle-disposition.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "id": "toggle-token-disposition",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  }
+}
