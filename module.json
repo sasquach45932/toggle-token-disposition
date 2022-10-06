@@ -9,7 +9,7 @@
       "flags": {}
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "socket": false,
   "scripts": [
     "scripts/toggle-disposition.js"
@@ -30,6 +30,6 @@
     "minimum": "10",
     "verified": "10"
   },
-  "manifest": "https://github.com/MindsoupLabs/ToggleTokenDisposition/releases/download/release-1.0.1/module.json",
-  "download": "https://github.com/MindsoupLabs/ToggleTokenDisposition/releases/download/release-1.0.1/toggle-token-disposition.zip",
+  "manifest": "https://github.com/MindsoupLabs/ToggleTokenDisposition/releases/download/release-1.0.2/module.json",
+  "download": "https://github.com/MindsoupLabs/ToggleTokenDisposition/releases/download/release-1.0.2/toggle-token-disposition.zip",
 }
