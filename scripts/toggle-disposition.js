@@ -28,8 +28,10 @@ class ToggleDisposition {
 				return 'fa-face-smile';
 			case 0:
 				return 'fa-face-meh';
-			default:
+			case -1: 
 				return 'fa-face-angry';
+			case -2:
+				return 'fa-face-meh-blank';
 		}
 	}
 
@@ -39,8 +41,11 @@ class ToggleDisposition {
 				return 'toggle-token-disposition.disposition.friendly';
 			case 0:
 				return 'toggle-token-disposition.disposition.neutral';
-			default:
+			case -1:
 				return 'toggle-token-disposition.disposition.hostile';
+			case -2:
+				return 'toggle-token-disposition.disposition.secret';
+
 		}
 	}
 
@@ -55,6 +60,7 @@ class ToggleDisposition {
 		buttons.append(this.createDispositionChangeButton(CONST.TOKEN_DISPOSITIONS.FRIENDLY, token));
 		buttons.append(this.createDispositionChangeButton(CONST.TOKEN_DISPOSITIONS.NEUTRAL, token));
 		buttons.append(this.createDispositionChangeButton(CONST.TOKEN_DISPOSITIONS.HOSTILE, token));
+		buttons.append(this.createDispositionChangeButton(CONST.TOKEN_DISPOSITIONS.SECRET, token));
 
 		return buttons;
 	}
@@ -100,7 +106,7 @@ class ToggleDisposition {
 				this.buttonEventHandler(event, hud.object.document)
 			);
 
-		html.find("div.left").append(tokenButton);
+		$(html).find("div.left").append(tokenButton);
 	}
 }
 

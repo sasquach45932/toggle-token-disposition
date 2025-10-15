@@ -2,5 +2,6 @@
 	"toggle-token-disposition.tooltiptext": "Change token disposition",
 	"toggle-token-disposition.disposition.friendly": "Friendly",
 	"toggle-token-disposition.disposition.neutral": "Neutral",
-	"toggle-token-disposition.disposition.hostile": "Hostile"
+	"toggle-token-disposition.disposition.hostile": "Hostile",
+	"toggle-token-disposition.disposition.secret": "Secret"
 }
